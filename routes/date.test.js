@@ -24,7 +24,7 @@ describe("/date", () => {
     it("should return 5", async () => {
       const res = await request(server).get("/date/month");
       expect(res.statusCode).toEqual(200);
-      expect(res.body).toEqual({ month: 5 });
+      expect(res.body).toEqual({ month: 6 });
     });
   });
 
